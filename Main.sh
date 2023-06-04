@@ -1,8 +1,8 @@
 rm /etc/ssh/sshd_config
 
-curl https://raw.githubusercontent.com/TnZzZHlp/Storage/main/sshd_config -o "/root/ssh/sshd_config"
+curl https://raw.githubusercontent.com/TnZzZHlp/Storage/main/sshd_config -o "/etc/ssh/sshd_config"
 
-rm /root/.ssh
+rm -rf /root/.ssh
 
 mkdir /root/.ssh
 
